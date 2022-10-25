@@ -22,7 +22,12 @@ h1{
     background-color: white;
 }
 
-/* Header */
+.container{
+    width: 50%;
+    margin: 30px auto 50px auto;
+}
+
+/* Main Header */
 
 #logo{
     height: 100px;
@@ -35,4 +40,30 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 52px;
     vertical-align: middle;
+}
+
+/* List Header */
+
+#list-header{
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+    padding-left: 50px;
+    line-height: 80px;
+}
+
+button{
+    color: white;
+    font-size: 18px;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+
+.not-selected{
+    color: rgb(200, 200, 200);
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+
 }
