@@ -5,3 +5,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* General */
+
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+h1{
+    display: inline;
+}
+
+/* Utils */
+
+.white-background{
+    background-color: white;
+}
+
+/* Header */
+
+#logo{
+    height: 100px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+#app-name{
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    vertical-align: middle;
+}
